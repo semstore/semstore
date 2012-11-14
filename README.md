@@ -6,7 +6,7 @@
 <p>We see a lot of bad coding practice, ineffcient use of servers and just downright bad solutions. We also know that you should never highlight a problem unless you have a solution.</p>
 <p>Back in 2005 SEM Solutions was a web developer looking for an ecommerce solution for a client. We couldn't find what we wanted in Actinic or OSCommerce so the SEM Store was born.</p>
 <h3>So what is it?</h3>
-<p>The SEM Store is a sleek &amp; efficient ecommerce platform &amp; CMS that has been developed as proprietory software since 2005 but ion 14th Nov 2012 was released under the GPL open source license.</p>
+<p>The SEM Store is a sleek &amp; efficient ecommerce platform &amp; CMS that has been developed as proprietory software since 2005 but on 14th Nov 2012 we proudly released it under the GPL open source license.</p>
 <p>It has been developed in house to a high standard and implemented across many functional and busy stores, we thought it was time to let you all have a play.</p>
 <h3>Our goals</h3>
 <p>The project was started with very clear goals and milestones:
