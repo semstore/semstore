@@ -1,0 +1,44 @@
+{if $formErrors}
+<div class="form_errors">
+<p class="title">Submission Errors</p>
+<p>There were errors with the data you have submitted.  
+Please correct the errors list below and submit the data again.</p>
+<ul>
+{foreach item="formError" from=$formErrors}
+        <li>{$formError}</li>
+{/foreach}
+</ul>
+</div>
+{/if}
+
+<div class="input_form">
+<form action="{$form->getAction()}" method="{$form->getMethod()}" enctype="multipart/form-data">
+
+<table>
+        <tr>
+                <td class="cell2" colspan="2"><a href="{$filenamepath}">{$filename}</a></td>
+        </tr>
+        <tr>
+                <td class="cell1">{$form->getWidgetLabel($productfileWidget->getId())}</td>
+                <td class="cell2">{$productfileWidget->render()} </td>
+        </tr>
+        
+        <tr>
+                <td class="cell1">{$form->getWidgetLabel($hfidWidget->getId())}</td>
+                <td class="cell2">{$hfidWidget->render()}</td>
+        </tr>
+        <tr>
+                <td class="cell1">{$form->getWidgetLabel($descriptionWidget->getId())}</td>
+                <td class="cell2">{$descriptionWidget->render()}</td>
+        </tr>
+</table>
+
+{$actionWidget->render()}
+
+<div class="form_controls">
+{$submitButtonWidget->render()}
+{$cancelButtonWidget->render()}
+</div>
+
+</form>
+</div>

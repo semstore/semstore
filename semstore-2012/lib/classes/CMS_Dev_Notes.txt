@@ -1,0 +1,16 @@
+CMS
+        Installer
+        Modular Framework
+        Modules to include:
+                ePublisher (eDiary, eNews, eGallery and eBlogger)
+                eComStore
+                Site specific modules
+        
+        
+Package Management
+
+Deployment (Push) Scripts
+
+HTML Forms, Widgets and Validation
+
+Web App Framework (built on Weblet)

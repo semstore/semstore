@@ -1,0 +1,26 @@
+<       eComStoreManager::OP_LESS ( $lexpr, $rexpr )
+>       eComStoreManager::OP_GREATER ( $lexpr, $rexpr )
+==      eComStoreManager::OP_EQUAL_TO ( $lexpr, $rexpr )
+>=      eComStoreManager::OP_GREATER_OR_EQUAL_TO ( $lexpr, $rexpr )
+<=      eComStoreManager::OP_LESS_OR_EQUAL_TO ( $lexpr, $rexpr )
+!=      eComStoreManager::OP_NOT_EQUAL_TO ( $lexpr, $rexpr )
+AND
+&&      eComStoreManager::OP_AND ( $lexpr, $rexpr )
+OR
+||      eComStoreManager::OP_OR ( $lexpr, $rexpr )
+
+
+
+
+
+
+SELECT * FROM product WHERE id = $id
+
+== ( 'id', $id )
+
+
+SELECT * FROM product WHERE id >= $id AND type_id = $typeId
+
+AND ( >= ( 'id', $id ), == ( 'typeId', $typeId ) )
+AND( >=( 'id', $id ), ==( 'typeId', $typeId ) )
+AND(>=('id', $id), ==('typeId', $typeId))

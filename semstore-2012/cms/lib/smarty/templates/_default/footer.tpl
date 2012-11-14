@@ -1,0 +1,1 @@
+<div id="footer">        <p>Copyright &copy; 2006 - 2007 - Designed and Developed by <a href="http://www.semsolutions.co.uk/">SEM Solutions Limited. All rights reserved.</a></p></div>

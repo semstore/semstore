@@ -1,0 +1,43 @@
+body {
+        background-color: #f6f6f6;
+}
+
+#maincontainer {
+        margin-top: 100px;
+        margin-left: auto;
+        margin-right: auto;
+        width: 500px;
+        border-width: 0px;
+}
+
+
+fieldset {
+        border-width: 0;
+}
+
+fieldset div {
+        margin-top: 5px;
+        margin-bottom: 5px;
+}
+
+
+fieldset label {
+        float: left;
+        margin-right: 10px;
+        width: 150px;
+        text-align: right;
+}
+
+input.login {
+        width: 150px;
+        border: 1px solid black;
+}
+
+input.password {
+        width: 150px;
+        border: 1px solid black;
+}
+
+input.submit {
+        margin-left: 160px;
+}

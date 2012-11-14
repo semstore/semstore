@@ -1,0 +1,316 @@
+
+.type_column {
+        background-color:#F1EFEF;
+}
+
+.type_column:hover {
+        background-color:#E5E5E5;
+}
+
+div.product_details table {
+        border:none;
+        margin:10px 0;
+        padding:0;
+}
+
+div.product_details table th {
+        color:#333333;
+        font-weight:400;
+        padding:5px 5px 5px 0;
+        text-align:left;
+        width:150px;
+}
+
+div.product_details table td {
+        padding:5px;
+        text-align:left;
+}
+
+div.attribute_group {
+        border:none;
+        margin-bottom:30px;
+        margin-top:20px;
+}
+
+div.browser_thumbnail div.browser_thumbnail_placeholder {
+        border:1px dashed black;
+        height:100px;
+        margin:10px auto;
+        width:100px;
+}
+
+div.basket_image div.basket_image_placeholder {
+        border:1px dashed black;
+        height:50px;
+        margin:10px auto;
+        width:50px;
+}
+
+
+fieldset.tools legend,div.products legend,div.product_details legend,div.attribute_groups legend,div.product_types legend,div.product_categories legend {
+        font-weight:700;
+        padding-right:5px;
+}
+
+div.products,div.product_details,div.attribute_groups,div.product_types,div.product_categories {
+        border:none;
+        margin:20px 10px 30px;
+}
+
+div.products fieldset,div.product_details fieldset,div.attribute_groups fieldset,div.product_types fieldset,div.product_categories fieldset {
+        border-bottom:none;
+        border-left:none;
+        border-right:none;
+        border-top:1px solid #D4D0C8;
+        margin:0 0 10px;
+        padding:0;
+}
+
+div.products table,div.attribute_group table,div.product_types table,div.product_categories table {
+        border:none;
+        margin:10px 0;
+        padding:0;
+        width:100%;
+}
+
+div.products table th,div.attribute_group table th,div.product_types table th,div.product_categories table th {
+        color:#333333;
+        font-weight:400;
+        padding:5px 5px 5px 0;
+        text-align:left;
+}
+
+div.products table td,div.attribute_group table td,div.product_types table td,div.product_categories table td {
+        padding:5px 5px 5px 0;
+        text-align:left;
+}
+
+div.products table th.type_column_heading,div.products table td.type_column,div.attribute_group table th.type_column_heading,div.attribute_group table td.type_column,div.product_types table th.type_column_heading,div.product_types table td.type_column,div.product_categories table th.category_column_heading,div.product_categories table td.category_column {
+        text-align:left;
+}
+
+div.products table th.options_column_heading,div.attribute_group table th.options_column_heading,div.product_types table th.options_column_heading,div.product_categories table th.options_column_heading {
+        text-align:center;
+        width:150px;
+}
+
+div.products table td.options_column,div.attribute_group table td.options_column,div.product_types table td.options_column,div.product_categories table td.options_column,div.browser_thumbnail h2,div.product_details_page_image h2,div.basket_image h2,div.product_image h2 {
+        text-align:center;
+}
+
+div.products a,div.product_details a,div.attribute_group a,div.product_types a,div.product_categories a {
+        background-color:white;
+        border:1px solid #555555;
+        color:#555555;
+        padding:5px;
+}
+
+
+div.browser_thumbnail,div.product_details_page_image,div.basket_image,div.product_image {
+        margin-bottom:20px;
+        margin-top:20px;
+        text-align:center;
+}
+
+div.product_details_page_image div.product_details_page_placeholder,div.product_image div.product_image_placeholder {
+        border:1px dashed black;
+        height:200px;
+        margin:10px auto;
+        width:200px;
+}
+
+
+#productsInCategoryList {
+        border: none;
+        margin: 10px 0;
+        padding: 0;
+        width: 100%;
+}
+
+#productsInCategoryList th,
+#productsInCategoryList td {
+        text-align: center;
+}
+
+#productsInCategoryList th {
+        color: #333333;
+        font-weight: 400;
+        padding: 5px 5px 5px 0;
+}
+
+#productsInCategoryList td {
+        padding: 5px 5px 5px 0;
+}
+
+
+#productsInCategoryList th.productName,
+#productsInCategoryList td.productName {
+        text-align: left;
+}
+
+
+.orders {
+        margin: 10px 10px 10px 10px;
+}
+
+
+.showingxy {
+        margin-top: 10px;
+        margin-bottom: 10px;
+}
+
+.pager {
+        margin-top: 10px;
+        margin-bottom: 10px;
+}
+
+.orders table th,
+.orders table td {
+        padding: 2px 3px 2px 3px;
+        text-align: left;
+}
+
+
+.orders table th.orderid {
+        width: 75px;
+}
+
+.orders table th.name {
+        ;
+}
+
+.orders table th.value {
+        width: 100px;
+        text-align: center;
+}
+
+.orders table td.value {
+        text-align: right
+}
+
+.orders table th.options {
+        width: 100px;
+        text-align: center;
+}
+
+.orders table td.options {
+        text-align: center;
+}
+
+
+.order-details {
+        margin: 10px 10px 10px 10px;
+}
+
+
+.order-details table th, 
+.order-details table td {
+        padding: 5px;
+        text-align: left;
+}
+
+.order-details table th {
+        width: 150px;
+        font-weight: bold;
+}
+
+
+.order-details table td {
+        font-weight: normal;
+}
+
+
+
+.order-lines {
+        margin: 20px 10px 20px 10px;
+}
+
+
+.order-lines table th, 
+.order-lines table td {
+        padding: 5px;
+        text-align: left;
+}
+
+.order-lines table th {
+        font-weight: bold;
+}
+
+
+.order-lines table td {
+        font-weight: normal;
+}
+
+
+.order-lines table th.productname {
+        width: 200px;
+}
+
+.order-lines table td.productname {
+        ;
+}
+
+.order-lines table th.cost {
+        width: 75px;
+        text-align: center;
+}
+
+.order-lines table td.cost {
+        text-align: right;
+}
+
+.order-lines table th.vat {
+        width: 75px;
+        text-align: center;
+}
+
+.order-lines table td.vat {
+        text-align: right;
+}
+
+.order-lines table th.qty {
+        width: 50px;
+        text-align: center;
+}
+
+.order-lines table td.qty {
+        text-align: center;
+}
+
+.order-lines table th.linetotal {
+        width: 75px;
+        text-align: center;
+}
+
+.order-lines table td.linetotal {
+        text-align: right;
+}
+
+
+
+.order-attributes {
+        margin: 20px 10px 20px 10px;
+}
+
+
+.order-attribute-group {
+        margin: 10px 10px 10px 10px;
+}
+
+
+.order-attributes table th, 
+.order-attributes table td {
+        padding: 5px;
+        text-align: left;
+}
+
+.order-attributes table th {
+        width: 150px;
+        font-weight: bold;
+}
+
+
+.order-attributes table td {
+        font-weight: normal;
+}
+

@@ -1,0 +1,1 @@
+<p class="specials">centre.tpl</p>

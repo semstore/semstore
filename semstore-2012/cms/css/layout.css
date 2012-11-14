@@ -1,0 +1,509 @@
+* {
+        margin: 0px;
+        padding: 0px;
+}
+
+body {
+        background-color:white;
+        color:black;
+        font-family:verdana;
+        font-size:8pt;
+        margin:0;
+        padding:0;
+}
+
+h1 {
+        font-size:12pt;
+        margin:0 0 0 10px;
+        padding:0;
+}
+
+h2 {
+        font-size:10pt;
+}
+
+h3 {
+        font-size:8pt;
+}
+
+p {
+        font:8pt verdana;
+}
+
+a {
+        text-decoration:none;
+}
+
+a:hover {
+        text-decoration:underline;
+}
+
+img {
+        border:none;
+        margin:0;
+        padding:0;
+}
+
+fieldset {
+        border-bottom: none;
+        border-left: none;
+        border-right: none;
+        border-top: 1px solid #d4d0c8;
+        margin: 0 0 10px;
+        padding: 0;
+}
+
+legend {
+        font-weight:700;
+        padding-right:5px;
+}
+
+.padded {
+        border: none;
+        margin: 20px 10px 30px;
+}
+
+#maincontainer {
+        border:1px solid black;
+        width:auto;
+}
+
+#header {
+        height:100px;
+}
+
+#header img {
+        float:left;
+}
+
+#toolbar {
+        border-bottom:1px solid black;
+        border-top:1px solid black;
+}
+
+#subcontainer {
+        width:100%;
+}
+
+#left {
+        background-color:#6e89dd;
+        border-right:1px solid black;
+        width:200px;
+}
+
+#centre {
+        background-color:#f6f6f6;
+        width:auto;
+}
+
+#footer {
+        background-color:silver;
+        border-top:1px solid black;
+        color:black;
+        margin:0;
+        padding:5px 10px;
+}
+
+#toolbar p {
+        margin-bottom:5px;
+        margin-left:10px;
+        margin-top:5px;
+        padding:0;
+}
+
+#toolbar .alignright {
+        float:right;
+        margin-bottom:5px;
+        margin-right:10px;
+        margin-top:5px;
+        padding:0;
+}
+
+#left .item {
+        border:1px solid black;
+        margin:20px 10px;
+}
+
+#left .item .title {
+        background-color:gray;
+        border-bottom:1px solid black;
+        color:white;
+        margin:0;
+        padding:5px;
+}
+
+#left .item .title a {
+        color:white;
+}
+
+#left .item p {
+        margin:5px;
+        padding:0;
+}
+
+#left .item p a {
+        color:black;
+}
+
+#left .item hr {
+        background-color:#e8e8e8;
+        margin-left:5px;
+        margin-right:5px;
+        padding:0;
+}
+
+#footer p {
+        color:black;
+        margin:0;
+        padding:0;
+        text-align:center;
+}
+
+div.navitem .title {
+        background-color:white;
+        background-image:url(../../images/site/left_nav_item_topright.png);
+        background-position:top right;
+        background-repeat:no-repeat;
+        color:white;
+        margin:0;
+        padding:0;
+}
+
+div.navitem .title p {
+        background-image:url(../../images/site/left_nav_item_topleft.png);
+        background-position:top left;
+        background-repeat:no-repeat;
+        padding:5px 5px 5px 15px;
+}
+
+div.navitem .title p a {
+        color:#2166cc;
+        font-weight:700;
+}
+
+div.navitem .contents {
+        background-color:#d6dff7;
+        border-left:1px solid white;
+        margin:0;
+        padding:3px;
+}
+
+div.navitem .contents ul {
+        list-style:none;
+        margin:5px;
+}
+
+div.navitem .contents ul li {
+        margin:5px;
+}
+
+div.navitem .contents ul li a {
+        color:#2166cc;
+}
+
+p.breadcrumb {
+        color:#333333;
+        margin:10px;
+        padding:0;
+}
+
+p.breadcrumb a {
+        color:#333333;
+        font-weight:400;
+}
+
+p.breadcrumb a:hover {
+        color:#333333;
+}
+
+h1.page_title span {
+        color:#333366;
+}
+
+.option_buttons {
+        margin:20px auto;
+        width:auto;
+}
+
+.option_buttons td {
+        vertical-align:top;
+}
+
+.option_button {
+        margin:0 10px;
+        padding:0;
+        text-align:center;
+        width:75px;
+}
+
+.option_button img {
+        height:50px;
+        margin:0;
+        padding:0;
+        width:50px;
+}
+
+fieldset.tools {
+        border-bottom:0;
+        border-left:0;
+        border-right:0;
+        border-top:1px solid #D4D0C8;
+        margin:10px;
+}
+
+.type_column {
+        background-color:#F1EFEF;
+}
+
+.type_column:hover {
+        background-color:#E5E5E5;
+}
+
+div.product_details table {
+        border:none;
+        margin:10px 0;
+        padding:0;
+}
+
+div.product_details table th {
+        color:#333333;
+        font-weight:400;
+        padding:5px 5px 5px 0;
+        text-align:left;
+        width:150px;
+}
+
+div.product_details table td {
+        padding:5px;
+        text-align:left;
+}
+
+div.attribute_group {
+        border:none;
+        margin-bottom:30px;
+        margin-top:20px;
+}
+
+.form_errors {
+        background-color:#e6ded7;
+        border:1px solid #660033;
+        margin:10px;
+        padding:5px 10px;
+}
+
+.form_errors .title {
+        color:#660033;
+        margin-bottom:10px;
+        margin-top:10px;
+}
+
+.form_errors ul li {
+        margin-left:25px;
+}
+
+div.browser_thumbnail div.browser_thumbnail_placeholder {
+        border:1px dashed black;
+        height:100px;
+        margin:10px auto;
+        width:100px;
+}
+
+div.basket_image div.basket_image_placeholder {
+        border:1px dashed black;
+        height:50px;
+        margin:10px auto;
+        width:50px;
+}
+
+div.form .errormessage {
+        color:red;
+}
+
+div.row {
+        margin-bottom:15px;
+        margin-top:15px;
+}
+
+div.form label {
+        float:left;
+        text-align:right;
+        width:200px;
+}
+
+div.form div.field {
+        margin-left:210px;
+}
+
+div.field input.parameter {
+        width:300px;
+}
+
+div.configuration table th,div.configuration table td {
+        padding-bottom:5px;
+        padding-top:5px;
+}
+
+div.configuration table th {
+        padding-right:10px;
+        width:200px;
+}
+
+#livelink {
+        background-color:#fff;
+        border-color:#D6DFF7 #536CBC #536CBC #D6DFF7;
+        border-style:solid;
+        border-width:1px;
+        clear:right;
+        color:#000;
+        float:right;
+        margin:5px;
+        padding:5px;
+}
+
+#livelink img:hover {
+        background-color:#E6ECFB;
+}
+
+.trhover tr:hover {
+        background:#eee;
+}
+
+*,form,.option_button p {
+        margin:0;
+        padding:0;
+}
+
+#toolbar a,#footer a {
+        color:black;
+        font-weight:700;
+}
+
+div.navitem,div.form {
+        margin:10px;
+}
+
+h1.page_title,.input_form,.input_confirmation {
+        margin:10px;
+}
+
+fieldset.tools legend,div.products legend,div.product_details legend,div.attribute_groups legend,div.product_types legend,div.product_categories legend {
+        font-weight:700;
+        padding-right:5px;
+}
+
+div.products,div.product_details,div.attribute_groups,div.product_types,div.product_categories {
+        border:none;
+        margin:20px 10px 30px;
+}
+
+div.products fieldset,div.product_details fieldset,div.attribute_groups fieldset,div.product_types fieldset,div.product_categories fieldset {
+        border-bottom:none;
+        border-left:none;
+        border-right:none;
+        border-top:1px solid #D4D0C8;
+        margin:0 0 10px;
+        padding:0;
+}
+
+div.products table,div.attribute_group table,div.product_types table,div.product_categories table {
+        border:none;
+        margin:10px 0;
+        padding:0;
+        width:100%;
+}
+
+div.products table th,div.attribute_group table th,div.product_types table th,div.product_categories table th {
+        color:#333333;
+        font-weight:400;
+        padding:5px 5px 5px 0;
+        text-align:left;
+}
+
+div.products table td,div.attribute_group table td,div.product_types table td,div.product_categories table td {
+        padding:5px 5px 5px 0;
+        text-align:left;
+}
+
+div.products table th.type_column_heading,div.products table td.type_column,div.attribute_group table th.type_column_heading,div.attribute_group table td.type_column,div.product_types table th.type_column_heading,div.product_types table td.type_column,div.product_categories table th.category_column_heading,div.product_categories table td.category_column {
+        text-align:left;
+}
+
+div.products table th.options_column_heading,div.attribute_group table th.options_column_heading,div.product_types table th.options_column_heading,div.product_categories table th.options_column_heading {
+        text-align:center;
+        width:150px;
+}
+
+div.products table td.options_column,div.attribute_group table td.options_column,div.product_types table td.options_column,div.product_categories table td.options_column,div.browser_thumbnail h2,div.product_details_page_image h2,div.basket_image h2,div.product_image h2 {
+        text-align:center;
+}
+
+div.products a,div.product_details a,div.attribute_group a,div.product_types a,div.product_categories a {
+        background-color:white;
+        border:1px solid #555555;
+        color:#555555;
+        padding:5px;
+}
+
+.form_errors ul,.input_form .form_controls,.input_confirmation p,.input_confirmation .input_controls,div.browser_thumbnail img,div.product_details_page_image img,div.basket_image img,div.product_image img {
+        margin-bottom:10px;
+        margin-top:10px;
+}
+
+.input_form table,.input_confirmation table {
+        border:1px solid black;
+        width:100%;
+}
+
+.input_form table td,.input_confirmation table td {
+        padding:3px;
+}
+
+.input_form table .cell1,.input_confirmation table .cell1 {
+        background-color:silver;
+        font-weight:700;
+        width:200px;
+}
+
+div.browser_thumbnail,div.product_details_page_image,div.basket_image,div.product_image {
+        margin-bottom:20px;
+        margin-top:20px;
+        text-align:center;
+}
+
+div.product_details_page_image div.product_details_page_placeholder,div.product_image div.product_image_placeholder {
+        border:1px dashed black;
+        height:200px;
+        margin:10px auto;
+        width:200px;
+}
+
+
+#productsInCategoryList {
+        border: none;
+        margin: 10px 0;
+        padding: 0;
+        width: 100%;
+}
+
+#productsInCategoryList th,
+#productsInCategoryList td {
+        text-align: center;
+}
+
+#productsInCategoryList th {
+        color: #333333;
+        font-weight: 400;
+        padding: 5px 5px 5px 0;
+}
+
+#productsInCategoryList td {
+        padding: 5px 5px 5px 0;
+}
+
+
+#productsInCategoryList th.productName,
+#productsInCategoryList td.productName {
+        text-align: left;
+}
+
+

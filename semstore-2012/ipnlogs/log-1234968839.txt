@@ -1,0 +1,181 @@
+Logging started on 18th Feb 2009 am28 08:53:59
+
+$_REQUEST = Array
+(
+    [mc_gross] => 111.75
+    [invoice] => 400
+    [protection_eligibility] => Eligible
+    [address_status] => confirmed
+    [item_number1] => 
+    [tax] => 0.00
+    [item_number2] => 
+    [payer_id] => N23U3T9VT92WY
+    [item_number3] => 
+    [address_street] => 9ok
+ok
+    [payment_date] => 06:53:39 Feb 18, 2009 PST
+    [payment_status] => Completed
+    [charset] => windows-1252
+    [address_zip] => o
+    [mc_shipping] => 0.00
+    [mc_handling] => 0.00
+    [first_name] => ojk
+    [mc_fee] => 4.00
+    [address_country_code] => GB
+    [address_name] => ojk o
+    [notify_version] => 2.6
+    [custom] => 
+    [payer_status] => verified
+    [business] => service@semsolutions.co.uk
+    [address_country] => United Kingdom
+    [num_cart_items] => 3
+    [mc_handling1] => 0.00
+    [mc_handling2] => 0.00
+    [mc_handling3] => 0.00
+    [address_city] => oo
+    [verify_sign] => An5ns1Kso7MWUdW4ErQKJJJ4qi4-AeNyoYQER7nXZ6ovr6r9Q6UDuznn
+    [payer_email] => simonc@test.com
+    [mc_shipping1] => 0.00
+    [mc_shipping2] => 0.00
+    [mc_shipping3] => 0.00
+    [tax1] => 0.00
+    [tax2] => 0.00
+    [tax3] => 0.00
+    [txn_id] => 76K20469J66347631
+    [payment_type] => instant
+    [last_name] => o
+    [address_state] => Oxfordshire
+    [item_name1] => SemStore Product
+    [receiver_email] => service@semsolutions.co.uk
+    [item_name2] => VAT
+    [payment_fee] => 
+    [item_name3] => Carriage
+    [quantity1] => 1
+    [quantity2] => 1
+    [receiver_id] => 5DPA2PE9GA7WG
+    [quantity3] => 1
+    [txn_type] => cart
+    [mc_gross_1] => 85.11
+    [mc_currency] => GBP
+    [mc_gross_2] => 16.64
+    [mc_gross_3] => 10.00
+    [residence_country] => GB
+    [test_ipn] => 1
+    [transaction_subject] => Shopping Cart
+    [payment_gross] => 
+)
+
+
+Sent Paypal 'VERFIED'
+$payment = Payment Object
+(
+    [connection] => MySQLDBConnection Object
+        (
+            [server] => localhost
+            [username] => semstore
+            [password] => 53m5t0r3
+            [database] => semstore
+            [autoconnect] => 
+            [sql] => SELECT payment.id AS id, payment.type_id AS type_id, payment.order_id AS order_id FROM payment, payment_type_attribute_link, payment_type_attribute, payment_type_attribute_group WHERE payment.id = payment_type_attribute_link.payment_id AND payment_type_attribute_link.attribute_id = payment_type_attribute.id AND payment_type_attribute.group_id = payment_type_attribute_group.id AND payment_type_attribute_group.type_id = '3' AND payment_type_attribute.name = 'Invoice' AND payment_type_attribute_link.value = '400'  LIMIT 1
+            [connection] => Resource id #37
+            [port] => 
+            [objId] => 
+            [objCreationTime] => -1
+            [objExpiryTime] => -1
+            [debugLevel] => 0
+        )
+
+    [cachedDataObject] => PaymentDataObject Object
+        (
+            [id] => 366
+            [typeId] => 3
+            [orderId] => 400
+            [dbConnection] => MySQLDBConnection Object
+                (
+                    [server] => localhost
+                    [username] => semstore
+                    [password] => 53m5t0r3
+                    [database] => semstore
+                    [autoconnect] => 
+                    [sql] => SELECT payment.id AS id, payment.type_id AS type_id, payment.order_id AS order_id FROM payment, payment_type_attribute_link, payment_type_attribute, payment_type_attribute_group WHERE payment.id = payment_type_attribute_link.payment_id AND payment_type_attribute_link.attribute_id = payment_type_attribute.id AND payment_type_attribute.group_id = payment_type_attribute_group.id AND payment_type_attribute_group.type_id = '3' AND payment_type_attribute.name = 'Invoice' AND payment_type_attribute_link.value = '400'  LIMIT 1
+                    [connection] => Resource id #37
+                    [port] => 
+                    [objId] => 
+                    [objCreationTime] => -1
+                    [objExpiryTime] => -1
+                    [debugLevel] => 0
+                )
+
+            [objId] => 
+            [objCreationTime] => -1
+            [objExpiryTime] => -1
+            [debugLevel] => 0
+        )
+
+    [cachedDataObjectChanged] => 
+    [objId] => 
+    [objCreationTime] => 1234968840
+    [objExpiryTime] => -1
+    [debugLevel] => 0
+)
+
+
+$order = ProductOrder Object
+(
+    [connection] => MySQLDBConnection Object
+        (
+            [server] => localhost
+            [username] => semstore
+            [password] => 53m5t0r3
+            [database] => semstore
+            [autoconnect] => 
+            [sql] => SELECT id, product_order_type_id, customer_id, date_placed, value FROM product_order WHERE id = 400 LIMIT 1
+            [connection] => Resource id #37
+            [port] => 
+            [objId] => 
+            [objCreationTime] => -1
+            [objExpiryTime] => -1
+            [debugLevel] => 0
+        )
+
+    [cachedDataObject] => ProductOrderDataObject Object
+        (
+            [id] => 400
+            [productOrderTypeId] => 1
+            [customerId] => 
+            [datePlaced] => 1234968775
+            [value] => 11175
+            [dbConnection] => MySQLDBConnection Object
+                (
+                    [server] => localhost
+                    [username] => semstore
+                    [password] => 53m5t0r3
+                    [database] => semstore
+                    [autoconnect] => 
+                    [sql] => SELECT id, product_order_type_id, customer_id, date_placed, value FROM product_order WHERE id = 400 LIMIT 1
+                    [connection] => Resource id #37
+                    [port] => 
+                    [objId] => 
+                    [objCreationTime] => -1
+                    [objExpiryTime] => -1
+                    [debugLevel] => 0
+                )
+
+            [objId] => 
+            [objCreationTime] => -1
+            [objExpiryTime] => -1
+            [debugLevel] => 0
+        )
+
+    [cachedDataObjectChanged] => 
+    [objId] => 
+    [objCreationTime] => 1234968840
+    [objExpiryTime] => -1
+    [debugLevel] => 0
+)
+
+
+Sending out email on 18th Feb 2009 am28 08:54:00
+
+Logging finished on 18th Feb 2009 am28 08:54:01
+

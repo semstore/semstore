@@ -1,0 +1,50 @@
+<?php
+
+/*** Set the path to our code library :: Start ***/
+$includePathFileFound = FALSE;
+for ( $i = 0; $i < 20 && !$includePathFileFound; $i++ )
+{
+        if ( is_file('./lib/include/include_path.inc.php') )
+        {
+                require('./lib/include/include_path.inc.php');
+                $includePathFileFound = TRUE;
+        }
+        else
+        {
+                $dir = getcwd();
+                chdir('..');
+                if ( $dir == getcwd() )
+                {
+                        die('Could not set the include path.');
+                }
+        }
+}
+if ( !$includePathFileFound )
+{
+        die('Could not set the include path.');
+}
+/*** Set the path to our code library :: End ***/
+
+require('envprep.inc.php');
+require_once('SEM/CMS/CMSMailer.class.php');
+
+$mailer =& new CMSMailer(Configuration::getInstance());
+
+$recipients = array(
+        'To' => 'adam@semsolutions.co.uk'
+        );
+$headers = array(
+        'From' => 'no-reply@semstudio.net',
+        'Subject' => 'Test'
+        );
+$body = 'Hello World!!!';
+
+$mailer->send($recipients, $headers, $body);
+
+//Out::writeOut($template->render());
+Debug::debugMsg(DebugLevel::DEBUG(), print_r($_SESSION, TRUE));
+
+Out::flush();
+Debug::flush();
+
+?>

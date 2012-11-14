@@ -1,0 +1,73 @@
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+Developers Guide to the Database Interface package
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+
+Purpose of the package
+----------------------
+
+The package allow for software to be built around two core classes that allow 
+interaction with different RDBMS.  The two classes are a DBConnection and 
+Recordset interface that mask the actual implementation of the underlying 
+mechanics required to communicate with different RDBMS.
+
+
+How To
+------
+
+To create a new connection to a database you can use a static method of 
+DBConnection as follows.
+
+$connection =& DBConnection::create(
+        'mysql://localhost/blahdb?username=someuser&password=somepass');
+
+The parameter to create() is a standard uri format for DSN connections.
+The format is:
+
+        <<db_protocol>>://<<db_server>>/<<database_name>>?
+                username=<<db_username>>&password=<<db_password>>
+
+Once a connection to a DBMS server has been established you will want to 
+execute SQL statements.  To do this you can use the execute method like so:
+
+$recordset =& $connection->execute("SELECT * FROM table WHERE id=1");
+
+or 
+
+$ success =& $connection->execute("UPDATE table SET name='blah'");
+
+If the command you execute normally returns a recordset then the returned
+object will be a recordset object that you can use to manipulate the recordset.
+If the command does not return a recordset then a boolean value will be returned 
+from execute() representing the success of the command.  If an error occurs while
+trying to execute the command then a DBError object is returned.
+
+
+Using the Recordset Object
+--------------------------
+
+So you have successfully execute an SQL statement and now you have a recordset. 
+To move through the record there are the following commands:
+
+        first ()        Moves to the first record in the recordset.  A boolean
+                        values is returned to indicate whether the seek was
+                        successful.
+        next ()         Moves to the next record in the recordset.  A boolean
+                        values is returned to indicate whether the seek was
+                        successful.
+        prev ()         Moves to the prev record in the recordset.  A boolean
+                        values is returned to indicate whether the seek was
+                        successful.
+        last ()         Moves to the last record in the recordset.  A boolean
+                        values is returned to indicate whether the seek was
+                        successful.
+
+If you wish to work with the current record that you have moved to then you can 
+ues the following methods:
+
+        getRowHash ()   Returns the recordset/row as an associative array
+                        mapping table column names to values.
+        getRowArray ()  Returns the recordset/row as an array storing the 
+                        columns values in the sequential order that the
+                        column names appeared in the select statement.
+
+

@@ -1,0 +1,13 @@
+Logging started on 18th Feb 2009 am28 06:55:44
+
+$_REQUEST = Array
+(
+    [__utmz] => 6686384.1234536165.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)
+    [__utma] => 6686384.4074068289174372400.1234536165.1234536165.1234536165.1
+)
+
+
+Sent Paypal 'VERFIED'
+$payment = 
+
+Could not find payment in DB!

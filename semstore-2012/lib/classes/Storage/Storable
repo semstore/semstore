@@ -1,0 +1,87 @@
+<?php
+
+/**
+ * @author Adam Dowling (adam@semsolutions.co.uk)
+ * @version 1.0
+ * @date 2005-08-23
+ * @package Storage
+ */
+
+class Storable extends Object
+{
+        /*
+         *
+	 * Class Constants
+         *
+	 */
+	
+        
+        
+        
+        
+	/*
+         *
+	 * Class Variables
+         *
+	 */
+        
+        
+        
+        
+        
+	/*
+         *
+	 * Instance Variables
+         *
+	 */
+        
+        
+        
+        
+        
+	/*
+         *
+	 * Constructors
+         *
+	 */
+        
+        
+        function Storable ()
+        {
+                die();
+        }
+        
+        
+        /*
+         *
+	 * Accessor & Mutator Methods
+         *
+	 */
+        
+        
+        
+        
+        
+        /*
+         *
+	 * Class Methods
+         *
+	 */
+        
+        
+        
+        
+        
+        /*
+         *
+	 * Command Methods
+         *
+	 */
+        
+        
+        
+        
+        
+}
+
+?>

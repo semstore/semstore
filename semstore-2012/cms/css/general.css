@@ -1,0 +1,54 @@
+/**
+ *
+ * AES Site wide styles
+ *
+ */
+
+body {
+        margin: 0px;
+        padding: 0;
+        top: 0;
+        background: #f6f6f6;
+        color: black;
+        font: 8pt verdana;
+}
+
+p {
+        font: 8pt verdana;
+}
+
+a {
+        text-decoration: none;
+}
+
+a:hover {
+        text-decoration: underline;
+}
+
+a:link {}
+
+
+.options {
+        ;
+}
+
+.options li{
+        list-style: none;
+}
+
+.search {
+        ;
+}
+
+.search .terms {
+        ;
+}
+
+.search .submitButton {
+        ;
+}
+
+.search_controls {
+        background-color: lightblue;
+}
+

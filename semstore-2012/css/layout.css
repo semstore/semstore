@@ -1,0 +1,80 @@
+/* SEM Store Front End Style Sheet  Designed by SEM Solutions Limited Edited on 21.03.07 */
+*						{margin: 0px;padding: 0px;}
+body					{color: #333333 ;font-size: 11px;background-color:#FFFFFF;font-family:Tahoma, Verdana, Helvetica, sans-serif; line-height:1.4em; margin-top:10px; margin-bottom:10px;}
+p						{margin:0px 0px 5px 5px;}
+img 					{border: none;}
+strong					{color:#000000}
+
+a:link 					{text-decoration: none; color: #333366; font-weight:bold; }
+a:visited 				{text-decoration: none;	color: #333366; font-weight:bold; }
+a:hover					{text-decoration: underline; color: #3838B6; font-weight:bold;}
+a:active				{text-decoration: underline; color: #3838B6; font-weight:bold;}
+
+
+ul		 				{margin-left:10px; padding:5px; list-style: disc inside;}
+ol 						{margin-left:10px; padding:5px; list-style:upper-latin; }
+li						{margin-left:10px; padding:5px; list-style: disc inside;}
+
+h1						{font-size:22px; color:#333366}
+h2						{font-size:20px; color:#282854}
+h3						{font-size:18px; color:#1C1C46}
+h4						{font-size:16px; color:#121237}
+h1, h2, h3, h4			{line-height:1.4em; margin:5px; padding: 0px 0px 0px 5px; border-left: solid 1px #CCCCCC; font-weight:normal;}
+
+/* layout definitions*/
+
+#maincontainer			{width: 90%;margin-left:auto;margin-right:auto;margin-top: 0px;border:3px solid #CCCCCC; padding:1px; }
+
+#header					{background-color: #ffffff;	color: #000000;	height:80px;background-image: url(../images/site/semstore-logo.png);background-repeat: no-repeat;background-position: left top;}
+
+#menu					{width:100%;height:40px; padding:0px;margin:0px; background-color:#333366; color: white;font-size: 11px;border-bottom:2px solid #999999; color:#FFFFFF;}
+#menu ul				{padding: 10px; color: white;}
+#menu li 				{display: inline;margin-right: 10px; border-left:#474777 1px solid; }
+#menu a:link			{text-decoration: none; color: #fff; font-weight:bold;}
+#menu a:visited			{text-decoration: none;	color: #fff; font-weight:bold;}
+#menu a:hover			{text-decoration: underline; color: #9DAEDB;font-weight:bold;}
+#menu a:active			{text-decoration: underline; color: #9DAEDB; font-weight:bold;}
+
+#wrapper				{width:100%;overflow:auto; overflow:hidden}
+
+#rightside				{float:right; clear:right; width:180px; background-color: #F0F0F0; padding:10px; overflow:auto; overflow:hidden}
+
+#leftside				{float:left; clear:left; width:180px; background-color:#F0F0F0; padding:10px; overflow:auto; overflow:hidden}
+
+#middle					{margin-right:220px; margin-left:215px; margin-bottom:10px;text-align:left ; float:none;}
+
+#footer 				{width:100%;background-color: #333366;color:#ffffff;padding-top:3px;border-top:2px solid #999999; color:#FFFFFF;;height:30px; font-size:9px}
+#footer a:link 			{color:#ffffff; padding:5px; }
+#footer a:visited 		{color:#ffffff; padding:5px; }
+#footer a:hover 		{text-decoration:underline; padding:5px; background-color:#474777  }
+#footer ul				{padding: 2px; color: white; margin:0px; }
+#footer li 				{display: inline; border-bottom:#474777 1px solid;border-left:#474777 1px solid;border-top:#2D2D5E 1px solid;border-right:#2D2D5E 1px solid; }
+
+#commerce				{width:100%; padding:10px; margin:10px}
+#company				{margin-left:215px; margin-bottom:10px;text-align:left ; float:none;}
+
+/* end of layout definitions */
+
+#categorylist 			{margin:10px; }
+#categorylist ul		{padding-left:10px; margin:10px; list-style: circle inside;border-left: solid 1px #CCCCCC; }
+
+.login	input, textarea, select, option {font-size: 11px;font-weight: normal;color: #333366;background-color: #ffffff;padding: 2px;border: 1px solid #333366;margin: 5px;}
+
+.breadcrumb				{color: #666666;font-weight: normal;font-size:9px;}
+.breadcrumb a:link		{color: #999999;font-weight: bold;}
+.breadcrumb a:visited	{color: #999999;font-weight: bold;}
+.breadcrumb a:hover		{color: #790003;font-weight: bold;}
+
+.specials				{float:right;clear:right;color:#CCCCCC;border: solid 2px #CCCCCC;font-size:9px;margin:2px;padding:2px;display:block;}
+.specials:hover			{float:right;clear:right;color:#ff0000;border: solid 2px #ff0000;font-size:9px;margin:2px;padding:2px;display:block;}
+
+.toleft					{float:left; clear:left}
+.toright				{float:right; clear:right}
+.all					{width:100%; }
+
+#registration			{}
+#registration	input, textarea, select, option 		{font-size: 11px;font-weight: normal;color: #333366;background-color: #ffffff;padding: 2px;border: 1px solid #333366;margin: 2px;}
+#registration	input, textarea 						{width: 300px}
+
+.error					{border: 2px solid #790000;margin:5px;padding:5px;font-weight: bold;font-variant: small-caps;color: #FFFFFF;background-color: #990000;}
+.required				{background-image: url(../images/site/required.gif);background-repeat: no-repeat;background-position: right top;background-color: #F8F8F8;}
