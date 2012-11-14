@@ -12,8 +12,9 @@
 <p>The project was started with very clear goals and milestones:
 <ul>
     <li>Open source</li>
+    <li>Low cost of ownership</li>
     <li>Easy to use</li>
-    <li>Efficient use of memory</li>
+    <li>Efficient use of memory &amp; server resources</li>
     <li>Clean smooth interface</li>
     <li>The ability to have an extremely flexible backend, "I want to be able to list an apple next to a space rocket"</li>
     <li>Good coding practice</li>
