@@ -21,11 +21,9 @@
 <p>All of these seem obvious but we feel that most of the widely used CMS systems have become far too bloated and complicated, often offering services clients do not use and get in the way. We have also found migrating these types of CMS to be tricky due to buggy code.</li>
 <p>Often off the peg CMS systems are great for small shops but as soon as your business grows so does the time it takes for users to navigate through your site</li>
 <br>
-<h3>The code</h3>
-<p>As lead developer on this project I could bore you with the reasons why this code is just plain cool but I will leave that up to you to discover</p>
-<br>
+<h3>The Code</h3>
+<p>As lead developer on this project I could bore you with the reasons why this code is just plain cool but I will leave that up to you to discover. Oh, you can also find me at <a href="http://twitter.com/nomadcoder88">@nomadcoder88</a></p>
 <h3>Going Forward</h3>
 <p>We have great expectation for this CMS we know that due to the effcient way that it uses server-side resources it is sstable on the cloud where most CMS systems would suffocate. We are looking to work with developers who are keen to maintain the high coding standards and make some cool additions to our codebase</p>
-<br>
 <h3>Notes</h3>
 <p>I also feel that I should mention that this isnt a untested product we run many stores with this CMS some with multiple thousands of products, they are rock solid and have been for years</p>
