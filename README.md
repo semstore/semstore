@@ -1,10 +1,12 @@
 <h1>Welcome to the SEM Store</h1>
 <h2>Open source ecommerce</h2>
 
-<h3>So what is it?</h3>
+<h3>Background</h3>
 <p>SEM Solutions is a world leader in <a href="http://www.semsolutions.co.uk">data migrations</a> which may seem an odd place to start when developing an ecommerce solution, however in our daily lives as data mechanics we have a unique insight into the web &amp; the various applications that are out there.</p> 
 <p>We see a lot of bad coding practice, ineffcient use of servers and just downright bad solutions. We also know that you should never highlight a problem unless you have a solution.</p>
-<p><b>So the SEM Store was born</b></p>
+<p>Back in 2005 SEM Solutions was a web developer looking for an ecommerce solution for a client. We couldn't find what we wanted in Actinic or OSCommerce so the SEM Store was born.</p>
+<h3>So what is it?</h3>
+<p>The SEM Store is a sleek &amp; efficient ecommerce platform &amp; CMS that has been developed as proprietory software since 2005 but ion 14th Nov 2012 was released under the GPL open source license.</p>
 <p>It has been developed in house to a high standard and implemented across many functional and busy stores, we thought it was time to let you all have a play.</p>
 <h3>Our goals</h3>
 <p>The project was started with very clear goals and milestones:
