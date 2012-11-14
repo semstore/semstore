@@ -24,7 +24,7 @@
 <h3>The Code</h3>
 <p>As lead developer on this project I could bore you with the reasons why this code is just plain cool but I will leave that up to you to discover. Oh, you can stalk me at <a href="http://twitter.com/nomadcoder88">@nomadcoder88</a>.</p>
 <h3>The Backing</h3>
-<p>This open source software project has for the past 7 years been sponsored by <a href="http://www.semsolutions.co.uk">www.semsolutions.co.uk</a> under the leadership of Simon Mohr who can be found at <a href="http://twitter.com/canterbury">@canterburygeeks</a>. Simon &amp; SEM Solutions are committed to workinclosely with the community that we hope to build here while building the SEM Store into a world class ecommerce platform for the future.</p>
+<p>This open source software project has for the past 7 years been sponsored by <a href="http://www.semsolutions.co.uk">www.semsolutions.co.uk</a> under the leadership of Simon Mohr who can be found at <a href="http://twitter.com/canterbury">@canterburygeeks</a>. Simon &amp; SEM Solutions are committed to working closely with the community that we hope to build here while developing the SEM Store into a world class ecommerce platform.</p>
 <h3>Going Forward</h3>
 <p>We have great expectation for this CMS we know that due to the effcient way that it uses server-side resources it is sstable on the cloud where most CMS systems would suffocate. We are looking to work with developers who are keen to maintain the high coding standards and make some cool additions to our codebase</p>
 <h3>Notes</h3>
