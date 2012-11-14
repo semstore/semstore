@@ -28,4 +28,4 @@
 <h3>Going Forward</h3>
 <p>We have great expectation for this CMS we know that due to the effcient way that it uses server-side resources it is sstable on the cloud where most CMS systems would suffocate. We are looking to work with developers who are keen to maintain the high coding standards and make some cool additions to our codebase</p>
 <h3>Notes</h3>
-<p>I also feel that I should mention that this isnt a untested product we run many stores with this CMS some with multiple thousands of products, they are rock solid and have been for years</p>
+<p>I also feel that I should mention that this isn't a untested product. Quite the contrary... we run many stores with the SEM Store ecommerce platform, some with many thousands of products and collectively with &pound;millions in sales. The SEM Store is rock solid and it has been for years.</p>
