@@ -1,5 +1,5 @@
 <h1>Welcome to the SEM Store.</h1>
-<h2>Open source E-Commerce</h2>
+<h2>Open source ecommerce</h2>
 
 <h3>So what is it</h3>
 <p>SEM Solutions is a world leader in <a href="http://www.semsolutions.co.uk">data migrations</a> which may seem an odd place to start when developing an e-commerce solution, however in our daily lifes as data mechanics we see an awful lot internet and are exposed to every CMS solutions</p> 
